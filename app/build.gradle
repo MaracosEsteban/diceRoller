@@ -9,11 +9,10 @@ android {
 
     defaultConfig {
         applicationId "com.example.myapplication"
-        minSdk 26
-        targetSdk 32
+        minSdk 26    // la version mas vieja de Android en la cual corre mi P
+        targetSdk 32 // la version mas nueva de Android que soporta mi aplicación
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
